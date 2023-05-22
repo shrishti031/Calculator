@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+  background: linear-gradient(to right,  rgb(228, 232, 235), rgb(169, 163, 228) ,  rgb(74, 141, 180));
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+
+}
+
+.calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 25px;
+    border: 2px solid rgb(8, 8, 8);
+   
+}
+
+#display {
+    margin: 0 5px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(239, 210, 210);
+    padding-right: 5%;
+    overflow-x: scroll;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 208, 238);
+  }
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button#equal {
+    height: 130px;
+}
+  .calculator {
+    background:rgb(29, 29, 29);
+  }
+
+  .calculator #display {
+    color: rgb(9, 8, 8);
+  }
+
+  .calculator button#clear {
+    background-color: rgb(96, 100, 96);
+    color: rgb(13, 13, 13);
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .calculator button.btn-num {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10%;
+    border: 2px solid rgb(173, 173, 199);
+  }
+
+  .calculator button.btn {
+    background-color: #caf7fa;
+    color:rgb(23, 22, 22);
+    font-size: 30px;
+    border: 1px solid rgb(18, 208, 233);
+  }
+  
+  .calculator button.btn-equal {
+    background-color: white;
+    color: rgb(12, 6, 6);
+    font-weight: bold;
+    font-size:35px;
+  }
+  .text-center{
+      text-align: center;
+  }
